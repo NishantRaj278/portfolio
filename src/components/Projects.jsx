@@ -50,55 +50,55 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Suraksha",
+      title: "VidCraft",
       description:
-        "A Disaster Management System that uses AI and maps API and chat section to provide real-time updates and resources during emergencies.",
+        "Developed a React-based content generation platform that leverages APIs to fetch data and images, enabling seamless creation of high-quality.",
       image: SurakshaImg,
-      tags: ["Sockets","MongoDB", "Machine Learning", "Node.js", "Tailwind CSS"],
+      tags: ["React", "Node.js", "MongoDB", "Tailwind CSS", "Bootstrap", "API"],
       links: {
-        source: "https://github.com/Anurag123Chauhan/Suraksha",
+        source: "https://github.com/NishantRaj278",
         demo: null,
       },
       category: "AI",
     },
     {
       id: 2,
-      title: "VidCraft",
+      title: "YourBlogs",
       description:
         "Developed a React-based content generation platform that leverages APIs to fetch data and images, enabling seamless creation of high-quality.",
       image: WeatherImg,
-      tags: ["Angular", "Node.js", "MongoDB", "Tailwind CSS", "Bootstrap"],
+      tags: ["React", "Node.js", "MongoDB", "Tailwind CSS", "Bootstrap"],
       links: {
-        source: "https://github.com/Anurag123Chauhan/PersonalPortfolio",
+        source: "https://github.com/NishantRaj278",
         demo: null,
       },
       category: "Web",
     },
+    // {
+    //   id: 3,
+    //   title: "N_Queen Visualizer",
+    //   description:
+    //     "A visualizer for the N-Queens problem, showcasing various algorithms and their performance in solving the problem.",
+    //   image: N_queenImg,
+    //   tags: ["C++"],
+    //   links: {
+    //     source: "https://github.com/NishantRaj278",
+    //     demo: null,
+    //   },
+    //   category: "C++",
+    // },
     {
       id: 3,
-      title: "N_Queen Visualizer",
-      description:
-        "A visualizer for the N-Queens problem, showcasing various algorithms and their performance in solving the problem.",
-      image: N_queenImg,
-      tags: ["C++"],
-      links: {
-        source: "https://github.com/Anurag123Chauhan/N-Queen-Visualisation",
-        demo: null,
-      },
-      category: "C++",
-    },
-    {
-      id: 4,
       title: "Library Management System",
       description:
         "Developed a Library Management System Website to streamline and automate the process of managing library resources.",
       image: RayTracingImg,
-      tags: ["C++"],
+      tags: ["React", "Node.js", "MongoDB", "Tailwind CSS", "Bootstrap"],
       links: {
-        source: "https://github.com/Anurag123Chauhan/Raytracing",
+        source: "https://github.com/NishantRaj278",
         demo: null,
       },
-      category: "C++",
+      category: "Web",
     },
     // {
     //   id: 5,
@@ -115,7 +115,7 @@ const Projects = () => {
     // },
   ]
 
-  const filters = ["All", "Web", "AI", "C++"]
+  const filters = ["All", "Web", "AI"]
 
   const filteredProjects = activeFilter === "All" ? projects : projects.filter((p) => p.category === activeFilter)
 

@@ -53,15 +53,15 @@ const About = () => {
         >
           {/* Header */}
           <motion.div className="text-center mb-16" variants={fadeIn}>
-            <motion.h1
+            {/* <motion.h1
               className="text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-teal-500 to-teal-400 bg-clip-text text-transparent"
               variants={fadeIn}
             >
-              About Me
-            </motion.h1>
-            <motion.p className="text-xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto" variants={fadeIn}>
+              Certificates
+            </motion.h1> */}
+            {/* <motion.p className="text-xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto" variants={fadeIn}>
                 My journey from C++ programming to web development, hackathons, competitive programming, and building impactful digital solutions that solve real-world problems.
-            </motion.p>
+            </motion.p> */}
             <motion.div
               className="w-24 h-1 bg-gradient-to-r from-teal-500 to-teal-400 mx-auto mt-8"
               initial={{ width: 0 }}
@@ -81,14 +81,14 @@ const About = () => {
               className="text-3xl font-bold mb-8 text-center bg-gradient-to-r from-teal-500 to-teal-400 bg-clip-text text-transparent"
               variants={fadeIn}
             >
-              My Story
+              {/* My Story */}
             </motion.h2>
-            <motion.div className="space-y-6 text-gray-700 dark:text-gray-300" variants={staggerChildren}>
-              <motion.p className="text-lg" variants={fadeIn}>
+            {/* <motion.div className="space-y-6 text-gray-700 dark:text-gray-300" variants={staggerChildren}>
+              {/* <motion.p className="text-lg" variants={fadeIn}>
                 I'm a passionate developer and problem-solver with expertise across the full stack. My journey 
                 began with C++ in high school, where I quickly discovered my fascination with turning logic into 
-                functional applications that could solve real-world challenges.
-              </motion.p>
+                functional applications that could solve real-world challenges. */}
+              {/* </motion.p>
               <motion.p className="text-lg" variants={fadeIn}>
                 My passion for programming evolved when I discovered web development. I immersed myself in React, Next.js,
                 and Node.js ecosystems, while sharpening my skills through competitive programming challenges. This 
@@ -99,7 +99,7 @@ const About = () => {
                 Today, I focus on creating intuitive, performant web applications while contributing to open-source
                 projects and mentoring aspiring developers in my community.
               </motion.p>
-            </motion.div>
+            </motion.div> */} 
           </motion.div>
 
           {/* Timeline Section */}
@@ -220,7 +220,7 @@ const About = () => {
               className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-teal-500 to-teal-400 bg-clip-text text-transparent"
               variants={fadeIn}
             >
-              What I Value
+              Certifications
             </motion.h2>
 
             <motion.div className="grid md:grid-cols-3 gap-8" variants={staggerChildren}>
@@ -245,10 +245,10 @@ const About = () => {
                     />
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold mb-2">Innovation</h3>
-                <p className="text-gray-700 dark:text-gray-300">
+                <h3 className="text-xl font-bold mb-2">Server Side JavaScript withNode.js</h3>
+                {/* <p className="text-gray-700 dark:text-gray-300">
                   I believe in pushing boundaries and finding creative solutions to complex problems.
-                </p>
+                </p> */}
               </motion.div>
 
               <motion.div
@@ -272,10 +272,10 @@ const About = () => {
                     />
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold mb-2">Community</h3>
-                <p className="text-gray-700 dark:text-gray-300">
+                <h3 className="text-xl font-bold mb-2">Building Web Applicationsin PHP</h3>
+                {/* <p className="text-gray-700 dark:text-gray-300">
                   I'm passionate about knowledge sharing and building supportive tech communities.
-                </p>
+                </p> */}
               </motion.div>
 
               <motion.div
@@ -299,10 +299,10 @@ const About = () => {
                     />
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold mb-2">Quality</h3>
-                <p className="text-gray-700 dark:text-gray-300">
+                <h3 className="text-xl font-bold mb-2">HTML, CSS, and JavaScript for Web Developers</h3>
+                {/* <p className="text-gray-700 dark:text-gray-300">
                   I strive for excellence in every line of code, focusing on performance and user experience.
-                </p>
+                </p> */}
               </motion.div>
             </motion.div>
           </motion.div>
