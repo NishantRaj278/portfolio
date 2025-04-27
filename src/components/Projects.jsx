@@ -65,7 +65,7 @@ const Projects = () => {
       id: 2,
       title: "YourBlogs",
       description:
-        "Developed a React-based content generation platform that leverages APIs to fetch data and images, enabling seamless creation of high-quality.",
+        "Developed a comprehensive blogging website where users can create, edit, and publish articles with rich text formatting.",
       image: WeatherImg,
       tags: ["React", "Node.js", "MongoDB", "Tailwind CSS", "Bootstrap"],
       links: {
